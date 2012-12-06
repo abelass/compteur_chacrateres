@@ -4,7 +4,7 @@
 	<version>1.0.0</version>
 	<etat>dev</etat>
 	<description>
-	Compter les charactères d\'un textarea
+	Compter les charactères d'un textarea
 	</description>
 	<licence>GPL 3</licence>
 	<prefix>compteur_characteres</prefix>
