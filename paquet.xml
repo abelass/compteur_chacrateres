@@ -1,5 +1,5 @@
 <paquet
-	prefix="compteur_chacrateres"
+	prefix="compteur_characteres"
 	categorie="edition"
 	version="1.0.0"
 	etat="dev"
@@ -18,8 +18,8 @@
 	<auteur>Rainer Müller</auteur>
 
 	<licence>GNU/GPL</licence>
-	<pipeline nom="header_prive" inclure="compteur_chacrateres_pipelines.php" />
-	<pipeline nom="recuperer_fond" inclure="compteur_chacrateres_pipelines.php" />	
+	<pipeline nom="header_prive" inclure="compteur_characteres_pipelines.php" />
+	<pipeline nom="recuperer_fond" inclure="compteur_characteres_pipelines.php" />	
 	<!--
 		Exemple de commandes
 		* dependances

@@ -7,15 +7,15 @@
 	Compter les charactères d\'un textarea
 	</description>
 	<licence>GPL 3</licence>
-	<prefix>compteur_chacrateres</prefix>
+	<prefix>compteur_characteres</prefix>
 
 	<pipeline>
 		<nom>header_prive</nom>
-		<inclure>compteur_chacrateres_pipelines.php</inclure>
+		<inclure>compteur_characteres_pipelines.php</inclure>
 	</pipeline>
 	<pipeline>
 		<nom>recuperer_fond</nom>
-		<inclure>compteur_chacrateres_pipelines.php</inclure>
+		<inclure>compteur_characteres_pipelines.php</inclure>
 	</pipeline>	
 	<necessite id="SPIP" version="[2.0.0;2.1.99]" />
 	<necessite id="cfg" version="[1.16.0;]" />		
