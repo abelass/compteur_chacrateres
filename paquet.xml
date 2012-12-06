@@ -1,0 +1,43 @@
+<paquet
+	prefix="compteur_chacrateres"
+	categorie="edition"
+	version="1.0.0"
+	etat="dev"
+	compatibilite="[3.0.5;3.0.*]"
+	logo=""
+	documentation=""
+>
+	<!--
+		Paquet généré le 2012-12-06 16:00:21
+		(Vous pouvez bien entendu supprimer ces commentaires) 
+	-->
+
+	<nom>Compteur de charactères</nom>
+
+	<!-- cette balise peut être présente plusieurs fois s'il y a plusieurs auteurs --> 
+	<auteur>Rainer Müller</auteur>
+
+	<licence>GNU/GPL</licence>
+
+	<!--
+		Exemple de commandes
+		* dependances
+		<necessite nom="saisies" compatibilite="[1.21.0;]" />
+		<utilise nom="saisies" compatibilite="[1.21.0;]" />
+		<lib nom="simplehtmldom" lien="http://chemin_vers_archive.zip" />
+		* pipelines
+		<pipeline nom="autoriser" inclure="compteur_chacrateres_autorisations.php" />
+		<pipeline nom="insert_head" inclure="compteur_chacrateres_pipelines.php" />
+		* declarer un pipeline 
+		<pipeline nom="mon_pipeline" action="" />
+		* parents de menus de SPIP :
+				menu_accueil (à éviter), menu_edition, menu_publication,
+				menu_activite, menu_squelette, menu_administration, menu_configuration 
+		<menu nom="compteur_chacrateres" titre="compteur_chacrateres:compteur_chacrateres_titre" parent="menu_edition"  icone="images/compteur_chacrateres-16.png" />
+		* parents d'onglets... configuration, plugins, statistiques, ... 
+		<onglet nom="compteur_chacrateres" titre="compteur_chacrateres:compteur_chacrateres_titre" parent="configuration" icone="images/compteur_chacrateres-24.png" />
+	-->
+
+
+
+</paquet>
