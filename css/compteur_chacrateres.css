@@ -1,0 +1,5 @@
+.compteur{display:block;clear:both}
+
+.compteur span{padding-right:0.2em}
+
+.compteur span.over{color:#FF0000}
