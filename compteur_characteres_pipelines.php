@@ -16,13 +16,13 @@ function compteur_characteres_header_prive($flux){
           $('#descriptif').simplyCountable({
                counter: '.compteur_descriptif',
                 countDirection: 'up',
-                maxCount: 100,
+                maxCount: 500,
           });
           $('#text_area').simplyCountable({
             counter: '.compteur_text_area',
             countType: 'characters',
             countDirection: 'up',
-            maxCount: 500,
+            maxCount: 1000,
           });
         });
     </script>";
